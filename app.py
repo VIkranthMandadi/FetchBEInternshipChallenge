@@ -69,7 +69,7 @@ def spend_points():
         available_points = transaction_points + payer_deductions[payer]
 
         if available_points <= 0:
-            # If this transaction or the payer has no points to spend, skip
+            # logic to make sure never go below 0
             if transaction_points < 0:
                 remaining_points += abs(transaction_points)
                 payer_deductions[payer] += abs(transaction_points)
@@ -79,7 +79,6 @@ def spend_points():
 
         if remaining_points > available_points:
             # Deduct all available points from this payer
-            #spent_points.append({"payer": payer, "points": -available_points})
             if payer in spent_points:
                 spent_points[payer] -= available_points
             else:
@@ -89,7 +88,6 @@ def spend_points():
             payer_deductions[payer] -= available_points
         else:
             # Spend only the remaining points needed from this payer
-            #spent_points.append({"payer": payer, "points": -remaining_points})
             if payer in spent_points:
                 spent_points[payer] -= remaining_points
             else:
@@ -102,10 +100,8 @@ def spend_points():
     if remaining_points > 0:
         return "User doesn't have enough points", 400
 
-    # Apply deductions to user points
+    # update the user points
     for payer in spent_points:
-        #payer = deduction['payer']
-        #user_points[payer] += deduction['points']  # deduction['points'] is negative, so this subtracts
         user_points[payer] += spent_points[payer]
 
     return jsonify(spent_points), 200
