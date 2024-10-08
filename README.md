@@ -1,4 +1,4 @@
-# FetchBEInternshipChallenge
+# Fetch Back End Internship Challenge
 
 This project is a simple points spending backend that calculates how points have been spent based on timestamp and payer information. The program handles requests for adding and spending points, ensuring that points are spent according to the rules outlined in the prompt.
 
@@ -27,12 +27,12 @@ It is recommended to run this project in a virtual environment. Follow the instr
 2. **Install the packages Needed**
 
    I have created a requirements.txt file to make installation of packages simple.
-   Once you activate your virtual environment run the command: pip install -r requirements.txt
+   Once you activate your virtual environment run the command: `pip install -r requirements.txt`
 
 3. **Run the Program**
 
-   To run the program, run the command: python3 app.py
-   If that does not work try: python app.py
+   To run the program, run the command: `python3 app.py`
+   If that does not work try: `python app.py`
    If that does not work please check if you have python or the correct version installed.
 
 #### Windows
@@ -49,12 +49,12 @@ It is recommended to run this project in a virtual environment. Follow the instr
 2. **Install the packages Needed**
 
    I have created a requirements.txt file to make installation of packages simple.
-   Once you activate your virtual environment run the command: pip install -r requirements.txt
+   Once you activate your virtual environment run the command: `pip install -r requirements.txt`
 
 3. **Run the Program**
 
-   To run the program, run the command: python3 app.py
-   If that does not work try: python app.py or try py app.py
+   To run the program, run the command: `python3 app.py`
+   If that does not work try: `python app.py` or try `py app.py`
    If that does not work please check if you have python or the correct version installed.
 
 #### Testing Endpoints
@@ -67,7 +67,7 @@ It is recommended to run this project in a virtual environment. Follow the instr
    To use postman:
 
    1. Make sure you have postman installed
-   2. Run your program
+   2. Run your program (With your virtual environment activated)
    3. Paste your URL + endpoint into the request (e.x. http://127.0.0.1:8000/balance)
    4. Make sure the request is set to the correct type (i.e. POST, GET, etc)
    5. Select body and provide a valid json body for that request type
@@ -76,13 +76,18 @@ It is recommended to run this project in a virtual environment. Follow the instr
 
    The program can still be tested without using a tool like postman or insomnia.
    Rather a curl request such as:
-   "curl -X POST http://127.0.0.1:8000/add \
+   `curl -X POST http://127.0.0.1:8000/add \
     -H "Content-Type: application/json" \
     -d '{
    "payer": "DANNON",
    "points": 300,
    "timestamp": "2022-10-31T10:00:00Z"
-   }'"
+   }'`
    can be placed directly into the terminal
 
-   Another example for a GET request can be: curl http://127.0.0.1:8000/balance
+   Another example for a GET request can be: `curl http://127.0.0.1:8000/balance`
+
+
+##Conclusion
+
+   This should provide all the information to run and test the program. Please reach out to vmandadi@wisc.edu with any questions.
