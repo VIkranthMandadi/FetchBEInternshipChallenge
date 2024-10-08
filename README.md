@@ -1,4 +1,4 @@
-# FetchBEInternshipChallenge
+# Fetch Back End Internship Challenge
 
 This project is a simple points spending backend that calculates how points have been spent based on timestamp and payer information. The program handles requests for adding and spending points, ensuring that points are spent according to the rules outlined in the prompt.
 
