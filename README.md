@@ -67,7 +67,7 @@ It is recommended to run this project in a virtual environment. Follow the instr
    To use postman:
 
    1. Make sure you have postman installed
-   2. Run your program
+   2. Run your program (With your virtual environment activated)
    3. Paste your URL + endpoint into the request (e.x. http://127.0.0.1:8000/balance)
    4. Make sure the request is set to the correct type (i.e. POST, GET, etc)
    5. Select body and provide a valid json body for that request type
