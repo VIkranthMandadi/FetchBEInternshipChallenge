@@ -1,0 +1,31 @@
+1. I chose python as my language of choice just because for me personally that is one of the easiest languages to
+set up the backend server and implement the various endpoints. In python I have experience using CORS and flask, therefore
+I decided to stick with the tools I already am familiar with and used those. Datetime is also another library I have used before and it 
+is an easy way to implement timestamps, from my experience so I used that as well. Finally, to test my endpoints I used postman. 
+I am aware of other tools to test endpoints as well, but postman is one I already had installed and one I am comfortable with, so
+I decided to stick with this one.
+
+2. The advantages of my solution is it is very simple and easy to follow. I would say it is simple and easy to follow 
+because of my use of python and the simplicity of this programming language. Another pro, which can also be seen as a con, 
+is there is not much, if any, configuration that needs to be done before beginning programming. It was very easy for me to get 
+to work and just start testing my endpoints. The disadvantages include speed, python as a language is often slower than, for example C or C++.
+Python also can require more memory and is not optimal for multiprocessing. Finally, I am not 100% sure if my implementation maximizes
+runtime. This is because I sort the time stamps before looping through them. I also do not think my solution optimizes memory, and this is
+because I use extra dictionaries to store information, where as I might have been able to minimize the number of data structures I used, however
+using these data structures made development slightly easiesr and simple to follow.
+
+3. My favorite personal project thus far has been the business I co-founded last summer called A* Accelerator. The purpose of this business
+was to build a programming bootcamp for high-school and college students that simulates an internship environment within the technology field.
+Alongside teaching programming skills and languages we developed curriculum, projects, and utilzied agile to provide a real world experience.
+This endeavour had many challenges. At first it was being on the same page as my teammamte and making sure that we sat down every few days 
+and communicated about what we were looking for from each other. From there marketing was a challenge. Coming up with unique and impacftul ways
+to market this program was challenge. We failed many times before finding the right streams to market down and it was really trial and error. 
+Finally, one of the main challenges was developing a mobile app for a small business that the students could work on as their project, picking up 
+tickets just like software engineers in industry do to simulate the job. We hired four interns and managed them throughout the development of 
+this project. The main challenges came down to decision making. I was more of a technical founder than my co-founder, so when it came to 
+what technologies to use, how to structure the project, and how to deploy the mobile app's backend the brundt of these decisions was placed on me.
+They way I attacked this challenge was by doing a lot of online reading and watching youtube videos to find the cheapest, most scalable, simple
+technologies to use to make it easy for our students to pick up. I also reached out to my peers and engineers from my past internships that
+had more experience in these fields than me and consulted them for advice about what they might do, or what they thought about our current
+actions. Overall, we built a successful app and a successful program, generating over $17,000 in revenue and having a satisfaction score of over
+4.5/5 stars.

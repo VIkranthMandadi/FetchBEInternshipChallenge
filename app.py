@@ -53,7 +53,6 @@ def spend_points():
 
     # Sort transactions by timestamp to spend the oldest points first
     sorted_transactions = sorted(transactions, key=lambda x: x['timestamp'])
-    print(sorted_transactions)
 
     # Temporary dictionary to track the deductions from each payer
     payer_deductions = {}
