@@ -86,3 +86,8 @@ It is recommended to run this project in a virtual environment. Follow the instr
    can be placed directly into the terminal
 
    Another example for a GET request can be: `curl http://127.0.0.1:8000/balance`
+
+
+##Conclusion
+
+   This should provide all the information to run and test the program. Please reach out to vmandadi@wisc.edu with any questions.
